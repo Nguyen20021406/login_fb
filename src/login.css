@@ -1,0 +1,59 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: aliceblue;
+    
+}
+
+
+.account {
+    text-align: left;
+}
+
+
+.logo_face {
+    height: 70px;
+    margin: 0 0 0 -20px;
+}
+
+.font {
+    margin: 10px 10px 10px 10px;
+}
+.father-form {
+    padding-bottom: 330px;
+}
+
+
+.form_login {
+    width: 400px;
+    border-style: groove;
+    border-radius: 5px;
+    float: left;
+    
+}
+
+.dangnhap {
+    font-size: 20px;
+}
+
+.cmt {
+    width: 400px;
+    
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .account {
+        text-align: center;
+    }
+    
+  }
+
+
